@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    flex-direction: row;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.description {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.text {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* 1 div  */
+.bloco {    
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocoimage {
+    width: 50%;
+    height: auto;
+    margin: 0px 10px;
+    border-radius: 20px 0 0 10px;
+}
+
+.quatro {
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex;
+    flex-wrap: wrap;
+    
+    
+}
+.quatro img {
+    width: 49%;
+    overflow: hidden;
+    padding: 0px 0 ;
+}
+.quatro-um{
+    margin: 0 0px 8px 0;
+}
+.quatro-dois{
+    margin: 0 0px 8px 0;
+    border-radius: 0 20px 0 0 ;
+}
+.quatro-quatro{
+    border-radius: 0 0 20px 0px;
+}
+/* 1 div  */
+
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-div{
+    align-items: center;
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+.hero-icon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 50px;
+    
+    
+}
+.hero-icon i {
+    margin: 8% 16% 8% 0%;
+    
+}
+.box {
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    border: 4px solid rgb(221, 98, 98);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: rgb(221, 98, 98);
+}
